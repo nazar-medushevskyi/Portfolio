@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="./style.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./img/123456789.svg">
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="home section" id="home">
+      <div class="home-content">
+        <h3 id="head-title">Hello, It's Me</h3>
+        <h1>Nazar Medushevskyi</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Hi, I'm Nazar Medushevskyi. I am a Frontend/FullStack developer with 1 year of web development experience</p>
+
+        <div class="sotial-media">
+          <a href="https://www.facebook.com/profile.php?id=100041886951650&sk=friends"><i
+              class='bx bxl-facebook'></i></a>
+          <!-- <a href="#"><i class='bx bxl-twitter'></i></i></a> -->
+          <a href="https://www.instagram.com/nazar.medushevskiy/"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.linkedin.com/in/nazar-medushevskiy-b6b3bb25a/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1ZSG_ebq3iVfuhYVrG91iPUCL1ySS9vT8/view?usp=drive_link" class="btn"
+          download>Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="./img/22222.png" class="img" alt="">
+      </div>
+    </section>
+
+
+    <section class="about section" id="about">
+      <div class="about-img">
+        <img src="./img/11111.png" alt="" class="imagess">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading-2">About <span>Me</span></h2>
+        <h3>Frontend/FullStack Developer!</h3>
+        <p>Hey there! I'm a Frontend/FullStack developer who loves crafting delightful user experiences. With a strong grasp of
+          HTML, CSS, JavaScript, TypeScript, Node.js and React I bring websites to life with both style and functionality.
+
+          Staying current with industry trends, I create modern, responsive websites that work seamlessly across
+          devices. Collaboration and creative problem-solving drive my approach, making every project a chance to learn
+          and grow.
+
+          When I'm not coding, I enjoy the outdoors and discovering new music. Let's connect and create something
+          awesome!
+        </p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <h2 class="heading">Our <span>Skills</span></h2>
+
+      <div class="services-contauner">
+
+        <div class="services-box">
+          <i class='bx bx-code-alt'></i>
+          <h3>Web Development</h3>
+          <p>Creating a top-notch and innovative web app, ensuring performance, security, and user satisfaction.
+            Encompassing diverse technologies.</p>
+          <a href="" class="btn">Read More</a>
+        </div>
+
+
+        <div class="services-box">
+          <i class='bx bxs-paint'></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Creating user-friendly interfaces that seamlessly blend functionality and aesthetics, utilizing skills in
+            Figma, Photoshop, responsive design principles.</p>
+          <a href="" class="btn">Read More</a>
+        </div>
+
+
+        <div class="services-box">
+          <i class='bx bx-bar-chart-alt'></i>
+          <h3>Optimization</h3>
+          <p>The skill to create projects that are not only visually appealing and user-friendly, but also to make them
+            optimized, which affects the loading speed of resources.</p>
+          <a href="" class="btn">Read More</a>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="portfolio section" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+
+        <div class="portfolio-box">
+          <img src="./img/2.jpg" alt="1">
+          <div class="portfolio-layer">
+            <h4>Technologies:</h4>
+            <p>MyBike landing page built with HTML, SCSS, JS. More information available <strong class="myLink" id="myLink">here</strong>.</p>
+            <a href="https://nazar-medushevskyi.github.io/layout_miami/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+
+        <div class="portfolio-box">
+          <img src="./img/22.jpg" alt="2">
+          <div class="portfolio-layer">
+            <h4>Technologies:</h4>
+            <p>Phone Catalog - React with TypeScript, SCSS, global state management. <strong class="myLink" id="myLink">here</strong>.
+            </p>
+            <a href="https://nazar-medushevskyi.github.io/react_phone-catalog/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+
+        <div class="portfolio-box">
+          <img src="./img/3.jpg" alt="3">
+          <div class="portfolio-layer">
+            <h4>Technologies:</h4>
+            <p>The 2048 game is written in JS, HTML, and CSS.  More information available <strong class="myLink" id="myLink">here</strong>.          </p>
+            <a href="https://nazarmedushevskyii.netlify.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/4.jpg" alt="4">
+          <div class="portfolio-layer">
+            <h4>Technologies:</h4>
+            <p>Slider animation - JS, Bootstrap, HTML, CSS  More information available <strong class="myLink" id="myLink">here</strong>.          </p>
+            <a href="https://nazar-medushevskyi.netlify.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/5.jpg" alt="5">
+          <div class="portfolio-layer">
+            <h4>Technologies:</h4>
+            <p>Advertisement scroll - JS, CSS, HTML.  More information available  <strong class="myLink" id="myLink">here</strong>.        </p>
+            <a href="https://nazar-medushevskyi-scr.netlify.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/6.jpg" alt="6">
+          <div class="portfolio-layer">
+            <h4>Technologies:</h4>
+            <p>Creative Scroll - HTML, CSS, JS. More information available  <strong class="myLink" id="myLink">here</strong>.</p>
+            <a href="https://nazar-medushevskyi344.netlify.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+
+    <section class="contact contact-section" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <div class="sotial-media">
+        <div class="firstBlock">
+          <a href="https://www.facebook.com/profile.php?id=100041886951650&sk=friends"><i
+              class='bx bxl-facebook'></i></a>
+          <!-- <a href="#"><i class='bx bxl-twitter'></i></i></a> -->
+          <a href="https://www.instagram.com/nazar.medushevskiy/"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+          <a href="https://t.me/MedushevskiyN"><i class='bx bxl-telegram'></i></a>
+          <a href="mailto: nazar.medushevskyi@gmail.com"><i class='bx bxs-envelope'></i></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Nazar Medushevskiy | ALL Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
