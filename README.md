@@ -21,7 +21,6 @@ Contact: A section for reaching out to me.
 
 To install the application:
 
-Navigate to the "develop" branch.
 Clone the link associated with this branch.
 Open the terminal in the folder where you want to download the project and enter the command "git clone" followed by the link for cloning.
 After the project is installed, open the website in your editor using Live Server or use the provided demo link above.
